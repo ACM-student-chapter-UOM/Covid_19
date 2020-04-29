@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:background="#2196F3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/srilanka"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:textColor="#fff"
+                android:textSize="35dp"
+                android:text="COVID-19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:src="@drawable/people"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:padding="25dp"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="Adasdasd asdsa as  asd asda  a asd asd asdasdas asdasd asdad  asdasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:padding="20dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="Adasdasd asdsa as  asd asda  a asd asd asdasdas asdasd asdad  asdasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"
+        android:background="#2196F3"
+        android:text="I want to help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
